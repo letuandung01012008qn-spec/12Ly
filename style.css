@@ -1,0 +1,361 @@
+﻿
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, sans-serif;
+}
+
+
+
+
+/* ===== HEADER BANNER ===== */
+
+.banner{
+
+width:100%;
+height:220px;
+
+background-image:url("images/banner.jpg");
+background-size:cover;
+background-position:center;
+
+position:relative;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.banner-overlay{
+position:absolute;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.25);
+}
+
+.banner-content{
+
+position:relative;
+color:white;
+text-align:center;
+}
+
+.banner-content h1{
+
+font-size:42px;
+text-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+.banner-content p{
+
+font-size:18px;
+}
+
+/* ===== NAVBAR ===== */
+
+nav{
+
+background:#87CEFA;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+
+text-decoration:none;
+margin:10px;
+padding:10px 20px;
+
+background:white;
+border-radius:20px;
+
+color:#333;
+font-weight:500;
+
+transition:0.3s;
+}
+
+nav a:hover{
+
+background:#ffdce3;
+}
+
+/* ===== CONTENT ===== */
+
+
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: Segoe UI, Arial, sans-serif;
+
+    color: #333;
+
+    /* nền xanh trắng sáng, học thuật */
+    background: linear-gradient(
+        to bottom,
+        #f5fbff 0%,
+        #eef7ff 40%,
+        #e3f2fd 100%
+    );
+
+    /* nền cố định khi cuộn */
+    background-attachment: fixed;
+
+    /* hiển thị mượt hơn */
+    min-height: 100vh;
+
+}
+
+/* ===== MEMBERS GRID ===== */
+
+.members-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.member{
+
+text-align:center;
+}
+
+.member img{
+
+width:120px;
+height:120px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:10px;
+}
+
+/* ===== TABLE ===== */
+
+table{
+
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+
+padding:12px;
+border:1px solid #ddd;
+}
+
+th{
+
+background:#E3F2FD;
+}
+
+/* ===== PETALS ===== */
+
+.petal{
+
+position:fixed;
+top:-50px;
+
+font-size:20px;
+color:#B3E5FC;
+
+animation:fall linear forwards;
+}
+
+@keyframes fall{
+
+to{
+
+transform:translateY(110vh);
+opacity:0;
+}
+/* ===== BODY BACKGROUND ===== */
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+    font-family: Segoe UI, Arial, sans-serif;
+
+    color: #333;
+
+    /* nền xanh trắng hiện đại */
+    background: linear-gradient(
+        135deg,
+        #f4f9ff 0%,
+        #e6f2ff 40%,
+        #dbeeff 100%
+    );
+
+    background-attachment: fixed;
+
+    min-height: 100vh;
+
+}
+
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+
+text-align:center;
+padding:20px;
+background:#87CEFA;
+margin-top:40px;
+}
+
+/* ===== CONTAINER ===== */
+
+.container{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+
+/* ===== CARD KHUNG LỚN ===== */
+
+.card{
+
+background:rgba(227,242,253,0.9);
+
+padding:35px;
+margin:30px 0;
+
+border-radius:18px;
+
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+
+transition:all 0.35s ease;
+
+backdrop-filter:blur(5px);
+
+position:relative;
+overflow:hidden;
+}
+
+
+/* ===== HIỆU ỨNG NỔI KHI HOVER ===== */
+
+.card:hover{
+
+transform:translateY(-12px) scale(1.02);
+
+box-shadow:0 20px 45px rgba(0,0,0,0.25);
+
+background:rgba(255,255,255,0.95);
+
+}
+
+
+/* ===== VIỀN PHÁT SÁNG QUANTUM ===== */
+
+.card::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+left:-100%;
+width:100%;
+height:100%;
+
+background:linear-gradient(
+120deg,
+transparent,
+rgba(93,169,255,0.4),
+transparent
+);
+
+transition:0.6s;
+}
+
+.card:hover::before{
+
+left:100%;
+}
+
+
+/* ===== TITLE STYLE ===== */
+
+.card h2{
+
+font-size:32px;
+margin-bottom:10px;
+color:#0B3D91;
+}
+
+.card h3{
+
+font-size:24px;
+margin-bottom:15px;
+color:#1565C0;
+}
+
+.card p, .card li{
+
+font-size:17px;
+line-height:1.7;
+}
+
+.main-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.slogan {
+    font-size: 22px;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.big-card {
+    background: rgba(255,255,255,0.08);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+.small-card {
+    background: rgba(255,255,255,0.12);
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    transition: 0.4s ease;
+}
+/* ===== KHUNG RIÊNG CHO MỖI MỤC ===== */
+
+.small-card {
+
+    background: #ffffff;
+
+    padding: 25px;
+
+    border-radius: 16px;
+
+    margin-bottom: 25px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+
+    border: 1px solid #e3f2fd;
+
+    transition: 0.3s ease;
+
+}
+
+.small-card:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow: 0 15px 35px rgba(0,0,0,0.18);
+
+}
+
+

@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Thành viên lớp 12 Lý</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+/* GRID MEMBERS */
+
+.members-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:20px;
+
+padding:40px;
+
+}
+
+/* MEMBER CARD */
+
+.member-card{
+
+background:white;
+
+border-radius:12px;
+
+padding:20px;
+
+text-align:center;
+
+box-shadow:0 4px 15px rgba(0,140,255,0.25);
+
+transition:0.3s;
+
+}
+
+.member-card:hover{
+
+transform:translateY(-5px);
+
+}
+
+/* AVATAR */
+
+.member-card img{
+
+width:100px;
+height:100px;
+
+border-radius:50%;
+
+margin-bottom:10px;
+
+}
+
+/* NAME */
+
+.member-name{
+
+font-weight:bold;
+
+font-size:18px;
+
+}
+
+/* ROLE */
+
+.member-role{
+
+color:#0099ff;
+
+font-size:14px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- BANNER -->
+
+<div class="banner">
+
+<div class="banner-overlay"></div>
+
+<div class="banner-content">
+
+<h1>Thành viên lớp 12 Lý</h1>
+
+<p>Niên khóa 2023 – 2026</p>
+
+</div>
+
+</div>
+
+<!-- MENU -->
+
+<nav>
+
+<a href="index.html">Trang chủ</a>
+<a href="members.html">Thành viên</a>
+<a href="activities.html">Hoạt động</a>
+<a href="memories.html">Kỷ niệm</a>
+<a href="schedule.html">Thời khóa biểu</a>
+
+</nav>
+
+
+<!-- MEMBERS -->
+
+<div class="members-grid">
+
+<!-- BAN CÁN SỰ -->
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Trần Đặng Thanh Tuyền</div>
+<div class="member-role">Lớp trưởng</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Phan Ngọc Thanh Tú</div>
+<div class="member-role">Lớp phó học tập</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Phan Lê Thanh Tú</div>
+<div class="member-role">Lớp phó lao động</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Nguyễn Hoàng Linh</div>
+<div class="member-role">Lớp phó văn thể mỹ</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Phạm Lê Minh Tuệ</div>
+<div class="member-role">Bí thư</div>
+</div>
+
+
+<!-- TỔ TRƯỞNG -->
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Đỗ Đức Nguyên</div>
+<div class="member-role">Tổ trưởng tổ 1</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Lê Tuấn Dũng</div>
+<div class="member-role">Tổ trưởng tổ 2</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Nguyễn Tấn Bách</div>
+<div class="member-role">Tổ trưởng tổ 3</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Võ Hồ Trí Đức</div>
+<div class="member-role">Tổ trưởng tổ 4</div>
+</div>
+
+
+<!-- TỔ VIÊN (27 người còn lại) -->
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Nguyễn Văn J</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Trần Văn K</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Lê Văn L</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Phạm Văn M</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Hoàng Văn N</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Đặng Văn O</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Võ Văn P</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Bùi Văn Q</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Ngô Văn R</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Phan Văn S</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Đỗ Văn T</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Trịnh Văn U</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Lý Văn V</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Huỳnh Văn W</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Nguyễn Văn X</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Trần Văn Y</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+<div class="member-card">
+<img src="avatar.png">
+<div class="member-name">Lê Văn Z</div>
+<div class="member-role">Tổ viên</div>
+</div>
+
+</div>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+Class 12 Physics © 2026
+
+</footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Thời khóa biểu • Lớp 12 Lý</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="banner">
+
+<div class="banner-overlay"></div>
+
+<div class="banner-content">
+
+<h1>Thời khóa biểu</h1>
+
+<p>Năm học 2025 – 2026</p>
+
+</div>
+
+</div>
+
+<!-- NAVBAR -->
+<nav>
+
+<a href="index.html">Trang chủ</a>
+
+<a href="members.html">Thành viên</a>
+
+<a href="activities.html">Hoạt động</a>
+
+<a href="memories.html">Kỷ niệm</a>
+
+<a href="schedule.html">Thời khóa biểu</a>
+
+</nav>
+
+<!-- CONTENT -->
+<div class="container">
+
+<div class="card">
+
+<h2>Buổi sáng</h2>
+
+<table>
+
+<tr>
+<th>Tiết</th>
+<th>Thứ 2</th>
+<th>Thứ 3</th>
+<th>Thứ 4</th>
+<th>Thứ 5</th>
+<th>Thứ 6</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Toán</td>
+<td>Lý</td>
+<td>Anh</td>
+<td>Hóa</td>
+<td>Văn</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Toán</td>
+<td>Lý</td>
+<td>Anh</td>
+<td>Hóa</td>
+<td>Văn</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Tin</td>
+<td>Sinh</td>
+<td>Lý</td>
+<td>Anh</td>
+<td>Toán</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Văn</td>
+<td>Sử</td>
+<td>GDQP</td>
+<td>Lý</td>
+<td>TD</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Văn</td>
+<td>Sử</td>
+<td>Địa</td>
+<td>Lý</td>
+<td>SHL</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h2>Buổi chiều</h2>
+
+<table>
+
+<tr>
+<th>Tiết</th>
+<th>Thứ 2</th>
+<th>Thứ 3</th>
+<th>Thứ 4</th>
+<th>Thứ 5</th>
+<th>Thứ 6</th>
+</tr>
+
+<tr>
+<td>6</td>
+<td>Tin</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>GDQP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>GDQP</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+</table>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+
+© 2026 • Lớp 12 Lý • THPT Chuyên Lê Khiết
+
+</footer>
+
+<script src="petals.js"></script>
+
+</body>
+
+</html>
